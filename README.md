@@ -1,16 +1,28 @@
-# React + Vite
+# VibeForage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VibeForage is a game-generating website. Pick a classic arcade game
+such as Snake or Flappy Bird, add a twist, and get a playable
+variation in your browser. Think "Flappy Bird, but underwater."
 
-Currently, two official plugins are available:
+## How it works
+[One or two sentences: does an LLM write the game code, or do tested
+game templates take a theme/config? Be specific.]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Generates playable versions of classic arcade games
+- Themed twists that change the look and feel of each game
+- Games run directly in the browser, no install needed
+- [Add only what is actually built]
 
-## React Compiler
+## Tech Stack
+- **Frontend:** [e.g. React, HTML5 Canvas]
+- **Backend:** [if any]
+- **Generation:** [LLM API / template engine]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
+[Clone, install, environment variables (names only), run command]
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Roadmap
+- [ ] [More base games]
+- [ ] [Twists that change mechanics, not just visuals]
+- [ ] [Sharing or saving generated games]
